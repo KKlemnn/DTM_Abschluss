@@ -17,5 +17,14 @@ Gridded choropleth maps are a variation of the regular choropleth map in which t
 One disadvantage of gridded choropleth maps stems from the different data format required for their creation: A more detailed data source and more spatial processing is generally necessary for their creation. The choice of grid size can also influence the patterns that appear: very large cells may hide local variation, while very small cells can produce a noisy or overly detailed map.
 Gridded choropleth maps offer a more spatially consistent alternative to regular choropleths, but their usefulness depends strongly on the quality and resolution of the underlying data and on the chosen grid size.
 
-### Method and Application: Cherry Blossom in Berlin
+### Method and Application: Cherry Blossom in Berlin I
 For this example, the location of all cherry tries in Berlin was first mapped and the entirety of the Berlin area divided into 500m squares. Next, the amount of cherry trees per square was counted and the squares coloured accordingly.
+
+## EP 03 | Dot Maps
+### Definition, advantages and disadvantages
+Dot maps are a type of thematic map that represent the location and distribution of a phenomenon using individual dots, with each dot representing a fixed quantity of the mapped variable. Unlike a regular choropleth map, which assigns a single colour and value to an entire administrative area, a dot map can show the spatial concentration and dispersion of the phenomena within that area.
+This is a major advantage because it provides a more intuitive impression of where something is concentrated rather than simply showing an average value for a whole region. Thus, they can also reveal clusters, gaps and density patterns that may be hidden by the boundaries of regular choropleth maps. In addition, because the dots represent quantities, the reader can often get a direct visual impression of the magnitude of the phenomenon.
+The major disadvantage of dot maps is that they can become difficult to read when there are very large numbers of dots, creating visual clutter. The size of dots can produce additional confusion: if each dot represents too large a quantity, smaller concentrations may disappear, whereas too small a value can produce an overcrowded map. Furthermore, dots do not necessarily represent the exact location of individual phenomena, but may just be aaproximation. 
+In comparison, regular choropleth maps are generally easier to interpret for comparing overall values between clearly defined administrative units, whereas dot maps are better at communicating spatial distribution, concentration and dispersion within those units.
+
+### Method and Application: Cherry Blossom in Berlin II
