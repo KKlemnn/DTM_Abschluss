@@ -5,8 +5,17 @@ The main advantage of dasymetric maps is therefore that they can provide a more 
 However, dasymetric maps also have disadvantages: they require additional data and are therefore more complex to create. While less so than regular choropleth maps, they still rely on assumptions about how the phenomenon is distributed within an areas. Therefore, they can appear more precise than choropleth maps but may not necessarily be more accurate. Additionally, the generally smaller sizes of coloured areas may be harder to read and interpret.
 Overall, regular choropleth maps are simpler, easier to produce and interpret, whereas dasymetric maps can provide a more realistic spatial representation but require more data and methodological assumptions.
 
-### Method and Application
+### Method and Application: Berlin Populatiuon Map
 In the example below the polygons of the LOR (Lifeworld-oriented spaces) of Berlin were coloured according to their population. Unmodified, this produced the first map, showing absolute numbers per LOR.
 For the next map, these were computed against the areas of the LOR itself and coloured accordingly, thus creating a (regular choropleth) population density map.
 The last map then has the LORs cut down to just the areas that are actual residential areas. This resulted in a dasymetric population density map.
 Bild
+
+## EP 02 | Gridded Choropleth Maps
+### Definition, advantages and disadvantages
+Gridded choropleth maps are a variation of the regular choropleth map in which the study area is divided into a regular grid of equal-sized cells, such as squares or hexagons, instead of administrative areas or other statistical units. This makes the map less dependent on administrative boundaries and allows spatial patterns to be represented more consistently across an area. Analogous to a choropleth map, each cell is assigned a colour according to the value of the variable being mapped. With every grid cell being the same size, comparisons between locations is easier and the visual influence of large administrative areas reduced. Gridded maps can therefore reveal local spatial patterns and concentrations that may be hidden in a regular choropleth. They are also useful for analysing phenomena continuously distributed across space and can make comparisons between different regions easier because the same spatial framework is used everywhere.
+One disadvantage of gridded choropleth maps stems from the different data format required for their creation: A more detailed data source and more spatial processing is generally necessary for their creation. The choice of grid size can also influence the patterns that appear: very large cells may hide local variation, while very small cells can produce a noisy or overly detailed map.
+Gridded choropleth maps offer a more spatially consistent alternative to regular choropleths, but their usefulness depends strongly on the quality and resolution of the underlying data and on the chosen grid size.
+
+### Method and Application: Cherry Blossom in Berlin
+For this example, the location of all cherry tries in Berlin was first mapped and the entirety of the Berlin area divided into 500m squares. Next, the amount of cherry trees per square was counted and the squares coloured accordingly.
