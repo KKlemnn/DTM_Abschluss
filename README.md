@@ -12,7 +12,7 @@ In the example below the polygons of the LOR (Lifeworld-oriented spaces) of Berl
 For the next map, these were computed against the areas of the LOR itself and coloured accordingly, thus creating a (regular choropleth) population density map.
 
 The last map then has the LORs cut down to just the areas that are actual residential areas. This resulted in a dasymetric population density map.
-!(https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Klemann_Berlin_Bev%C3%B6lkerung_Versch_Karten-1.png)
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Klemann_Berlin_Bev%C3%B6lkerung_Versch_Karten-1.png" />
 
 ## EP 02 | Grid Choropleth Maps
 ### Definition, advantages and disadvantages
