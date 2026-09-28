@@ -24,7 +24,7 @@ Grid Choropleth maps offer a more spatially consistent alternative to regular Ch
 
 ### Method and Application: Cherry Blossom in Berlin I
 For this example, the location of all cherry tries in Berlin was first mapped and the entirety of the Berlin area divided into 500m squares. Next, the amount of cherry trees per square was counted and the squares coloured accordingly.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Bordenau.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Kirschbl%C3%BCten%20500m.png"/>
 
 ## EP 03 | Dot Maps
 ### Definition, advantages and disadvantages
@@ -70,7 +70,7 @@ Unlike a regular Choropleth Map, which allows relatively straightforward compari
 This map attempted to visualise the origin of the volunteers for the International Brigades in the Spanish Civil War. First, the volunteers were mapped to points in the capitals of their country of origin. The size of the three-pointed Star in that location is an additional indicator for the amount of volunteers Next lines were drawn to Madrid, with thickness and colour representing the amount of volunteers.
 
 This map should be regarded as a failure, but with valuable lessons learned. First, the amount of volunteers is distributed extremely unevenly: The Most volunteers, almost 9000, came from France. The second place is already only a mere 2000, while the smaller contingents number in the low hundreds. This required a logarithmic scale, which is already counterintuitive. Furthermore, the geographic location of the capitals makes it almost inevitable, that the French connection blocks out all others.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/IntBrig.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/IntBrig.png" />
 
 ## EP 06 | Tile Maps for Raster Data
 Tile Maps can be used to make more fine-grain raster data easier to visualise. In this, they work quite similar to Grid Choropleth Maps and have the same advantage and disadvantages.
@@ -79,7 +79,7 @@ Additional, the simplification can be an advantage, by eliminating clutter and m
 
 ### Method and Application: Germany as building bricks
 Using a raster data height map as the data source, Germany has been divided into equally sized squared. The data from the height map was then aggregated into these squared, using a mean, and is now represented in different colours, following the conventional display of altitude on maps. Additional detail was then added to make the squares appear as if they were plastic building bricks.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/deutschland_lego_v2.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/deutschland_lego_v2.png" />
 
 ## EP 07 | Animated Maps
 The most straightforward way of showing a temporal axis on a map is generally to have it be animated. This basically means that multiple versions of the map are strung one after another to visualise changes in phenomena.
@@ -90,7 +90,7 @@ On the other hand, the fact that the animation will only go one way, makes it al
 
 ### Method and Application: Comet Shower
 For this animation, the visualised Dataset contained the start and endpoint of visible comets at given points in time. These points were connected and coloured mimicking a shooting star. Then, the shooting stars were aggregated by hour and are displayed in sequence.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/full.gif"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/full.gif" />
 
 ## EP 08 | Mesh Data
 Mesh data divides an area into a regular grid of small cells, with each cell containing a value for a particular variable. Whereas in the previous examples of Grid and Tile Maps, where non-uniform data was represented on a uniform map, now the challenge is to find ways in which to display this uniform data in non-uniform ways. Additionally, as recognisable geographic features may be absent in the data, an additional challenge is to use ways of making these visible, without interfering with the mesh data.
@@ -98,7 +98,7 @@ Mesh data divides an area into a regular grid of small cells, with each cell con
 ### Method and Application: Van-Gogh-Style Wind Map
 The mesh data displayed here is for wind speed, specifically during the winter storm of 1953, the heaviest to hit the Netherlands in the last century. The lines themselves present wind direction and more lines converging presents particularly intense winds.
 Through various blending methods, the streamlines themselves show a (distorted) elevation map of Western-Central Europe, do better localise the map.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/1953_storm_big.gif"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/1953_storm_big.gif" />
 
 ## EP 09 | Beyond the Second Dimension
 Some data is best visualised in not two, but three dimensions. To achieve this, two different methods can be used in QGIS: 2.5D and (True) 3D.
@@ -108,7 +108,7 @@ Some data is best visualised in not two, but three dimensions. To achieve this, 
 
 ### Method and Application: A Village in 2.5 and 3D
 These pictures show a small village in 2.5D and 3D (the later only in a screenshot). For the 2.5D view, the objects merely needed a height (in this case already contained in the dataset) to render the 2.5D view: The 'top' of the polygons was then coloured red, while the 'sides' where coloured light gray.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Bordenau.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Bordenau.png" />
 
 The 3D view however required more complex models, which for example distinguished between roof and wall polygons. These were then coloured as in the 2.5D view.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Bordenau3d.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Bordenau3d.png" />
