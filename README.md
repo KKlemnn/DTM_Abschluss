@@ -55,7 +55,7 @@ Overall, Value by Alpha Maps offer unique advantages in presenting much more inf
 In this example, the election results for the two biggest parties, Fidesz and Tisza were mapped onto the electoral constituencies. The areas were than coloured according to what parties carried more votes, with the intensity of the colour representing a higher share of the votes.
 
 Arranging the map in this way also mitigates one of the large disadvantages of the Value by Alpha Map: Where it becomes hard to tell which party won, the difference in votes was much smaller than in those with clearer colouring.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Layout%201.png/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Layout%201.png" />
 
 ## EP 05 | Origin Destination Maps
 Origin-destination maps are a type of thematic map used to show movement or flows between two or more locations. Therefore, they graphically connect an origin, where a movement begins, to a destination, where it ends. The connection can than further be used to represent both the direction (for example by an arrowhead) or volume or intensity of the connection by variation in thickness and colour of the line.
