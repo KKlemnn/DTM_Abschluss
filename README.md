@@ -39,7 +39,7 @@ In comparison, regular choropleth maps are generally easier to interpret for com
 For this map the above described method was used, but instead of differently coloured shapes representing areas, differently scaled and coloured cherryblossoms represent how many trees are in a given area.
 
 Thus, this is not a Dot Map in the traditional sense, as the dots don't represent individual phenomena, but rather aggregation of these.
- <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Kirschbl%C3%BCte.png"/>
+ <img width="auto" height="auto" alt="image" src="https://raw.githubusercontent.com/KKlemnn/DTM_Abschluss/refs/heads/main/Kirschbl%C3%BCte.png" />
 
 ## EP 04 | Value by Alpha Maps
 ### Definition, advantages and disadvantages
